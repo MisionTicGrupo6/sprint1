@@ -38,3 +38,10 @@ ul {
     color: blue;
     background-color: lightblue;
   }
+  #formRegistro{
+    width: 200px;
+    height: 100px;
+  }
+  input{
+    border: 1px solid green;
+  }
