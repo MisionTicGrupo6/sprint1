@@ -45,3 +45,10 @@ ul {
   input{
     border: 1px solid green;
   }
+  .administrador{
+    border-radius: 2px solid;
+
+  }
+  .administrador:hover{
+    background-color: violet;
+  }
