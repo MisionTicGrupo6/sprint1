@@ -1,7 +1,13 @@
-funtion vaidar_telefono(string){
-
+function vaidar_telefono(string){
+    var telefono;
+	telefono = document.getElementById("campoTelefono").value;
+	if(/^[0-9]\d{6,10}$/.test(telefono)){
+		alert("Numero correcto")
+	}else{
+		alert("Numero fuera del rango permitido \n Letras o caractares especiales no permitidos")
+	}
 }
-funtion validar_direccion(string){
+function validar_direccion(string){
 
 }
 
